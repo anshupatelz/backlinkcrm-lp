@@ -102,27 +102,32 @@ export default function BacklinkCRMPage() {
             <section className="container mx-auto px-4 py-16 md:py-24">
                 <div className="max-w-5xl mx-auto">
                     <div className="bg-destructive/10 border-2 border-destructive/30 rounded-2xl p-8 md:p-12 backdrop-blur-sm">
-                        <h2 className="text-3xl md:text-5xl font-serif mb-6 text-center">
+                        <h2 className="text-3xl md:text-4xl font-serif mb-6 text-center">
                             Right now, you have no idea which of your $500 worth of backlinks just went 404.
                             <span className="text-destructive"> Or turned no-follow. Or changed anchor text.</span>
                         </h2>
-                        <div className="space-y-4 text-lg text-muted-foreground/90 max-w-3xl mx-auto">
-                            <p>Every hour you waste in spreadsheets is an hour not spent on growth.</p>
-                            <p>Every missed link issue is DR points bleeding away.</p>
-                            <p>Every manual check is a scaling bottleneck that's keeping you small.</p>
-                            <p className="text-xl font-semibold text-foreground pt-4">
-                                The truth: You can't scale a link-building operation on spreadsheets and prayers.
-                            </p>
-                            <p className="pt-4">
-                                Your team is drowning in tabs. Your clients want real-time updates. Your backlinks are dying silently. And you're the one staying late to check everything manually.
-                            </p>
+                        <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-8">
+                            <div className="p-4 rounded-lg bg-destructive/5 border border-destructive/20">
+                                <p className="text-lg text-muted-foreground/90">Every hour you waste in spreadsheets is an hour not spent on growth.</p>
+                            </div>
+                            <div className="p-4 rounded-lg bg-destructive/5 border border-destructive/20">
+                                <p className="text-lg text-muted-foreground/90">Every missed link issue is DR points bleeding away.</p>
+                            </div>
+                            <div className="p-4 rounded-lg bg-destructive/5 border border-destructive/20">
+                                <p className="text-lg text-muted-foreground/90">Every manual check is a scaling bottleneck that's keeping you small.</p>
+                            </div>
+                            <div className="p-4 rounded-lg bg-destructive/5 border border-destructive/20">
+                                <p className="text-lg text-muted-foreground/90">
+                                    Your team is drowning in tabs. Your clients want real-time updates. Your backlinks are dying silently. And you're the one staying late to check everything manually.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
             {/* Platform Introduction */}
-            <section className="bg-muted/50 py-16 md:py-24">
+            {/* <section className="bg-muted/50 py-16 md:py-24">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center space-y-6">
                         <h2 className="text-3xl md:text-5xl font-serif">
@@ -131,6 +136,145 @@ export default function BacklinkCRMPage() {
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                             BacklinkCRM monitors every single backlink 24/7/365. No more manual checking. No more nasty surprises. No more scaling limits.
                         </p>
+                    </div>
+                </div>
+            </section> */}
+
+            {/* Chrome Extension Highlight */}
+            <section className="container mx-auto px-4 py-16 md:py-24">
+                <div className="max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-2 gap-12 items-center">
+                        <div className="space-y-6">
+                            <Badge variant="secondary" className="text-base px-4 py-2">
+                                <Globe className="w-4 h-4 inline mr-2" />
+                                Chrome Extension
+                            </Badge>
+                            <h2 className="text-3xl md:text-5xl font-serif">
+                                No More Spreadsheets — <span className="text-primary">Manage Link Partnerships Instantly</span>
+                            </h2>
+                            <p className="text-xl text-muted-foreground">
+                                The BacklinkCRM Chrome Extension helps you manage backlinks without switching tabs or creating endless sheets.
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                {[
+                                    {
+                                        icon: FileSpreadsheet,
+                                        title: "No more sheets",
+                                        description: "Create partnerships without spreadsheets"
+                                    },
+                                    {
+                                        icon: Zap,
+                                        title: "Auto-fetch anchors",
+                                        description: "Just paste the URL and we'll grab everything"
+                                    },
+                                    {
+                                        icon: Link2,
+                                        title: "One-click collabs",
+                                        description: "Start partnerships instantly from any webpage"
+                                    },
+                                    {
+                                        icon: CheckCircle2,
+                                        title: "Add notes",
+                                        description: "Stay organized on the go, right where you work"
+                                    }
+                                ].map((feature, idx) => (
+                                    <div key={idx} className="flex items-start gap-4 p-4 rounded-lg bg-muted/50 border">
+                                        <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                                            <feature.icon className="w-5 h-5 text-primary" />
+                                        </div>
+                                        <div>
+                                            <div className="font-semibold mb-1">{feature.title}</div>
+                                            <div className="text-sm text-muted-foreground">{feature.description}</div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                            <Button size="lg" className="mt-6">
+                                <Download className="w-5 h-5 mr-2" />
+                                Install Chrome Extension — Free
+                            </Button>
+                        </div>
+                        <div className="relative">
+                            <div className="aspect-square rounded-2xl bg-linear-to-br from-primary/20 via-accent/20 to-destructive/20 p-8 flex items-center justify-center border-2 border-primary/20">
+                                <div className="text-center space-y-4">
+                                    <Globe className="w-24 h-24 text-primary mx-auto" />
+                                    <p className="text-lg font-semibold">Chrome Extension Preview</p>
+                                    <p className="text-sm text-muted-foreground">Manage backlinks directly from your browser</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Dashboard & Reporting */}
+            <section className="bg-muted/30 py-16 md:py-24">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="text-center mb-12">
+                            <h2 className="text-3xl md:text-5xl font-serif mb-4">
+                                Comprehensive Reporting
+                            </h2>
+                            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                                Powerful Dashboard with Everything You Need to Track
+                            </p>
+                        </div>
+
+                        <div className="grid md:grid-cols-2 gap-8">
+                            <Card className="border-2 hover:border-primary transition-all duration-300">
+                                <CardHeader>
+                                    <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                                        <BarChart3 className="w-7 h-7 text-primary" />
+                                    </div>
+                                    <CardTitle className="text-2xl">All Your Data in One Place</CardTitle>
+                                </CardHeader>
+                                <CardContent className="space-y-4">
+                                    <p className="text-muted-foreground">
+                                        Stay on top of your entire backlink workflow with a single, powerful dashboard. From monthly partnership trends to individual team performance and link status — BacklinkCRM gives you everything you need to track, manage, and grow your link-building efforts.
+                                    </p>
+                                    <div className="grid grid-cols-2 gap-4 pt-4">
+                                        {[
+                                            { icon: TrendingUp, label: "Partnership Trends" },
+                                            { icon: Users, label: "Team Performance" },
+                                            { icon: Activity, label: "Link Status" },
+                                            { icon: Target, label: "Growth Metrics" }
+                                        ].map((item, idx) => (
+                                            <div key={idx} className="flex items-center gap-2 text-sm">
+                                                <item.icon className="w-4 h-4 text-primary" />
+                                                <span>{item.label}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </CardContent>
+                            </Card>
+
+                            <Card className="border-2 hover:border-primary transition-all duration-300">
+                                <CardHeader>
+                                    <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                                        <Calendar className="w-7 h-7 text-primary" />
+                                    </div>
+                                    <CardTitle className="text-2xl">Real-Time Insights</CardTitle>
+                                </CardHeader>
+                                <CardContent className="space-y-4">
+                                    <p className="text-muted-foreground">
+                                        No more outdated reports or manual data entry. Your dashboard updates in real-time, showing you exactly what's happening with your backlinks right now. Make data-driven decisions instantly.
+                                    </p>
+                                    <div className="grid grid-cols-2 gap-4 pt-4">
+                                        {[
+                                            { icon: Zap, label: "Live Updates" },
+                                            { icon: Bell, label: "Instant Alerts" },
+                                            { icon: Download, label: "Export Anytime" },
+                                            { icon: Shield, label: "Custom Reports" }
+                                        ].map((item, idx) => (
+                                            <div key={idx} className="flex items-center gap-2 text-sm">
+                                                <item.icon className="w-4 h-4 text-primary" />
+                                                <span>{item.label}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -175,9 +319,9 @@ export default function BacklinkCRMPage() {
                             },
                             {
                                 icon: DollarSign,
-                                title: "Actually Know Your ROI",
-                                description: "See exactly which links drive results",
-                                detail: "Stop guessing which partnerships work. Track everything. Kill what doesn't work. Double down on what does."
+                                title: "Payment and Barter Tracking",
+                                description: "Add notes on your partners and partnerships",
+                                detail: "See exactly what is owed - invoices, barter resources, deliverables and more."
                             },
                             {
                                 icon: Shield,
@@ -524,22 +668,23 @@ export default function BacklinkCRMPage() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center space-y-8">
                         <h2 className="text-3xl md:text-5xl font-serif">
-                            Your backlinks are dying right now. You just don't know which ones.
+                            See How BacklinkCRM Pays for Itself from Week 1.
                         </h2>
                         <p className="text-xl text-muted-foreground">
-                            Start monitoring in the next 24 hours. Find what's broken. Fix it. Scale.
+                            Agencies switching to BacklinkCRM recover lost backlinks, reduce manual ops time, and increase successful link deals - generating ROI in week, not months.
                         </p>
 
                         <Card className="border-2 border-primary">
                             <CardContent className="pt-8 space-y-6">
                                 <div className="text-xl font-semibold">
-                                    30-minute demo. Three immediate outcomes:
+                                    In this 30-minute ROI session, you will:
                                 </div>
-                                <div className="grid md:grid-cols-3 gap-4 text-left">
+                                <div className="grid md:grid-cols-2 gap-4 text-left">
                                     {[
-                                        "See your actual dead links we find in real-time during the call",
-                                        "Calculate exactly how many hours you'll save weekly",
-                                        "Get your custom import template ready to go"
+                                        "Reveal how many hours & deals you can save monthly",
+                                        "Identify lost backlink & lost revenue leakage",
+                                        "Calculate your agency’s ROI using real numbers",
+                                        "Learn how teams are saving 20+ hours per week"
                                     ].map((item, idx) => (
                                         <div key={idx} className="flex items-start gap-2">
                                             <CheckCircle2 className="w-5 h-5 text-primary mt-1 shrink-0" />
@@ -551,7 +696,7 @@ export default function BacklinkCRMPage() {
                                 <Separator />
 
                                 <Button size="lg" className="w-full text-lg py-7 bg-linear-to-r from-primary to-primary/90">
-                                    Start Monitoring Today →
+                                    Book a 30-minute demo →
                                 </Button>
 
                                 <p className="text-sm text-muted-foreground italic">
