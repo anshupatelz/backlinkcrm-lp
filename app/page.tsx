@@ -73,7 +73,7 @@ export default function BacklinkCRMPage() {
                         </h1>
 
                         <p className="text-xl md:text-2xl text-muted-foreground/90 max-w-4xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
-                            While you're updating spreadsheets, your competitors are building. Stop the manual madness — monitor every backlink automatically, catch issues instantly, and scale without hiring more people.
+                            While you're updating spreadsheets, your competitors are building. Stop the manual management - monitor every backlink automatically, catch issues instantly, and scale without hiring more people.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
@@ -88,6 +88,12 @@ export default function BacklinkCRMPage() {
                                 Book a Demo
                             </Button>
                         </div>
+
+                        <div>
+                            <div className="text-sm text-muted-foreground mt-2">
+                                No credit card required · Setup in minutes
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -97,7 +103,7 @@ export default function BacklinkCRMPage() {
                 <div className="max-w-5xl mx-auto">
                     <div className="bg-destructive/10 border-2 border-destructive/30 rounded-2xl p-8 md:p-12 backdrop-blur-sm">
                         <h2 className="text-3xl md:text-5xl font-serif mb-6 text-center">
-                            Right now, you have no idea which of your $10,000 worth of backlinks just went 404.
+                            Right now, you have no idea which of your $500 worth of backlinks just went 404.
                             <span className="text-destructive"> Or turned no-follow. Or changed anchor text.</span>
                         </h2>
                         <div className="space-y-4 text-lg text-muted-foreground/90 max-w-3xl mx-auto">
@@ -134,7 +140,7 @@ export default function BacklinkCRMPage() {
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-5xl font-serif mb-4">
-                            Stop Bleeding Time and Rankings. Start Scaling.
+                            Stop Wasting Time and Rankings. Start Scaling.
                         </h2>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                             You didn't build a business to live in spreadsheets. One platform replaces your manual chaos.
@@ -241,17 +247,17 @@ export default function BacklinkCRMPage() {
                                 },
                                 {
                                     icon: Target,
-                                    title: "Custom Tracking",
-                                    description: "Track what matters to you. Custom fields, tags, and filtering."
+                                    title: "3 Way Link Exchange Management",
+                                    description: "Easily track and monitor 3 way link exchanges. Never lose track of these complex backlinks again."
                                 },
                                 {
                                     icon: Globe,
-                                    title: "API Access",
-                                    description: "Connect to your existing tools. Full API documentation included."
+                                    title: "Chrome Extension",
+                                    description: "Check any backlink on the web instantly. See status, anchor text, follow/nofollow, and more."
                                 },
                                 {
                                     icon: FileSpreadsheet,
-                                    title: "White-Label Reports",
+                                    title: "White-Label Reports (Comming Soon)",
                                     description: "Branded reports in your colors. Make it look like your own tool."
                                 }
                             ].map((feature, idx) => (
@@ -384,7 +390,7 @@ export default function BacklinkCRMPage() {
             </section>
 
             {/* Success Metrics */}
-            <section className="container mx-auto px-4 py-16 md:py-24">
+            {/* <section className="container mx-auto px-4 py-16 md:py-24">
                 <div className="max-w-6xl mx-auto">
                     <div className="grid md:grid-cols-3 gap-8 text-center">
                         {[
@@ -401,7 +407,7 @@ export default function BacklinkCRMPage() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Support & Service */}
             <section className="bg-muted/30 py-16 md:py-24">
@@ -527,7 +533,7 @@ export default function BacklinkCRMPage() {
                         <Card className="border-2 border-primary">
                             <CardContent className="pt-8 space-y-6">
                                 <div className="text-xl font-semibold">
-                                    15-minute demo. Three immediate outcomes:
+                                    30-minute demo. Three immediate outcomes:
                                 </div>
                                 <div className="grid md:grid-cols-3 gap-4 text-left">
                                     {[
