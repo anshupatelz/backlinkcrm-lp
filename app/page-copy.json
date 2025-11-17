@@ -1,0 +1,445 @@
+{
+    "meta": {
+        "title": "LeadInbox.io - Your AI Landing Pages, Now With Working Forms + CRM",
+        "description": "Stop losing leads to broken AI-generated forms. Get instant form backend + built-in CRM. Pre-order now: Lifetime Starter Plan for just ₹999!",
+        "keywords": "form backend, AI landing pages, CRM, lead management, ChatGPT forms, v0 forms, form submissions"
+    },
+    "hero": {
+        "badge": "🚀 Pre-Launch Offer - Limited Spots Available",
+        "headline": "Your AI Landing Pages, Now With Working Forms + CRM",
+        "subheadline": "Stop losing leads to broken forms. One endpoint. Instant dashboard. Built-in CRM. Everything you need to capture and close leads.",
+        "pain_point": "AI tools like ChatGPT and v0 create beautiful landing pages in seconds. But the forms don't work. Leads vanish. Conversions fail.",
+        "cta_primary": "Get Lifetime Access - ₹999",
+        "cta_secondary": "See How It Works",
+        "hero_image_alt": "LeadInbox dashboard showing form submissions and CRM pipeline",
+        "trust_badge": "⚡ Join 50+ early adopters building smarter"
+    },
+    "lifetime_offer_banner": {
+        "title": "🎉 Pre-Launch Lifetime Deal",
+        "offer": "Starter Plan - Lifetime Access",
+        "original_price": "₹299/month",
+        "offer_price": "₹999",
+        "offer_label": "One-time payment",
+        "savings": "Save ₹3,588 in Year 1 alone!",
+        "whats_included": [
+            "500 form submissions/month",
+            "Unlimited forms",
+            "Full CRM features (Lead tagging, notes, pipeline)",
+            "CSV export",
+            "Email notifications",
+            "Webhook support",
+            "All future Starter Plan features",
+            "Priority email support"
+        ],
+        "scarcity": "⏰ Only 100 lifetime spots available",
+        "spots_remaining": "47 spots left",
+        "cta": "Claim Your Lifetime Access",
+        "guarantee": "30-day money-back guarantee. No questions asked."
+    },
+    "problem_section": {
+        "title": "The Problem Every AI Landing Page User Faces",
+        "problems": [
+            {
+                "icon": "❌",
+                "title": "Forms Don't Work",
+                "description": "ChatGPT and v0 generate beautiful HTML forms, but they're just frontend code. No backend = no submissions captured."
+            },
+            {
+                "icon": "💸",
+                "title": "Leads Are Lost Forever",
+                "description": "Without a working backend, every form submission disappears into the void. You're losing money with every visitor."
+            },
+            {
+                "icon": "🤯",
+                "title": "Technical Setup Is Confusing",
+                "description": "Building your own form backend requires coding skills, server setup, database management, and hours of work."
+            },
+            {
+                "icon": "📊",
+                "title": "No Way To Track Leads",
+                "description": "Even if you get forms working, you still need a system to organize, follow up, and convert leads into customers."
+            }
+        ]
+    },
+    "solution_section": {
+        "title": "Introducing LeadInbox.io",
+        "subtitle": "The Complete Solution: Form Backend + CRM in One",
+        "description": "We built LeadInbox specifically for marketers using AI-generated landing pages. Get your forms working in 60 seconds, then manage every lead in your built-in CRM.",
+        "main_visual_alt": "Simple 3-step process showing form creation to lead management"
+    },
+    "how_it_works": {
+        "title": "How It Works",
+        "subtitle": "From broken form to closed deal in 3 simple steps",
+        "steps": [
+            {
+                "step_number": "01",
+                "icon": "🎯",
+                "title": "Create Your Form Endpoint",
+                "description": "Sign up and click 'New Form'. We instantly generate a unique endpoint URL for you. No coding required.",
+                "time": "30 seconds"
+            },
+            {
+                "step_number": "02",
+                "icon": "📋",
+                "title": "Paste Into Your AI-Generated Form",
+                "description": "Copy our one-line code snippet and paste it into your ChatGPT or v0 landing page. Your form now works!",
+                "time": "30 seconds",
+                "code_example": true
+            },
+            {
+                "step_number": "03",
+                "icon": "📈",
+                "title": "Manage Leads In Your CRM",
+                "description": "Every submission flows into your dashboard. Tag leads, add notes, track status, and never lose a potential customer.",
+                "time": "Ongoing"
+            }
+        ],
+        "bonus_feature": {
+            "title": "Already Have Forms?",
+            "description": "Connect your existing forms from any platform using webhooks. Centralize all your leads in one place.",
+            "icon": "🔗"
+        }
+    },
+    "features_section": {
+        "title": "Everything You Need. Nothing You Don't.",
+        "subtitle": "Built for solo marketers and small teams who want results, not complexity",
+        "feature_categories": [
+            {
+                "category": "Form Backend (Ready Now)",
+                "features": [
+                    {
+                        "icon": "⚡",
+                        "title": "Instant Form Endpoints",
+                        "description": "Generate working form URLs in seconds. Just paste into any HTML form."
+                    },
+                    {
+                        "icon": "🔒",
+                        "title": "Spam Protection",
+                        "description": "Built-in honeypot fields and rate limiting keep your inbox clean."
+                    },
+                    {
+                        "icon": "📧",
+                        "title": "Email Notifications",
+                        "description": "Get instant alerts when someone submits your form. Never miss a lead."
+                    },
+                    {
+                        "icon": "📥",
+                        "title": "CSV Export",
+                        "description": "Download all your submissions anytime. Your data, always accessible."
+                    },
+                    {
+                        "icon": "🌐",
+                        "title": "Works With Everything",
+                        "description": "ChatGPT, v0, Claude Artifacts, Webflow, WordPress, or any HTML form."
+                    },
+                    {
+                        "icon": "🔗",
+                        "title": "Webhook Support",
+                        "description": "Connect your existing forms from Typeform, Google Forms, or any platform."
+                    }
+                ]
+            },
+            {
+                "category": "Built-In CRM (Coming in Phase 2 - Included FREE)",
+                "features": [
+                    {
+                        "icon": "🏷️",
+                        "title": "Lead Tagging",
+                        "description": "Organize leads with custom tags. Filter and find anyone instantly."
+                    },
+                    {
+                        "icon": "📝",
+                        "title": "Lead Notes",
+                        "description": "Add context to every lead. Remember conversations and follow-up details."
+                    },
+                    {
+                        "icon": "📊",
+                        "title": "Status Tracking",
+                        "description": "Track leads through your pipeline: New → Contacted → Qualified → Won/Lost."
+                    },
+                    {
+                        "icon": "🔍",
+                        "title": "Smart Search & Filters",
+                        "description": "Find any lead in seconds. Filter by tag, status, date, or custom fields."
+                    },
+                    {
+                        "icon": "📈",
+                        "title": "Simple Pipeline View",
+                        "description": "Visual Kanban board to manage your sales process. Drag and drop to update status."
+                    },
+                    {
+                        "icon": "⏰",
+                        "title": "Follow-Up Reminders",
+                        "description": "Never forget to follow up. Set reminders for hot leads."
+                    }
+                ]
+            },
+            {
+                "category": "Advanced Features (Phase 3 & Beyond - Included FREE)",
+                "features": [
+                    {
+                        "icon": "✉️",
+                        "title": "Email Sequences",
+                        "description": "Automated drip campaigns to nurture leads on autopilot."
+                    },
+                    {
+                        "icon": "🤝",
+                        "title": "Team Collaboration",
+                        "description": "Invite team members, assign leads, work together."
+                    },
+                    {
+                        "icon": "📊",
+                        "title": "Analytics Dashboard",
+                        "description": "Track conversion rates, lead sources, and performance metrics."
+                    },
+                    {
+                        "icon": "🔌",
+                        "title": "Zapier Integration",
+                        "description": "Connect to 5,000+ apps. Automate your entire workflow."
+                    }
+                ]
+            }
+        ]
+    },
+    "comparison_section": {
+        "title": "Why Choose LeadInbox Over Alternatives?",
+        "subtitle": "The only solution built specifically for AI landing page users",
+        "competitors": [
+            {
+                "name": "Basin",
+                "price": "₹830/mo",
+                "features": {
+                    "form_backend": true,
+                    "ai_landing_page_focus": false,
+                    "built_in_crm": false,
+                    "lead_tagging": false,
+                    "pipeline_management": false,
+                    "email_sequences": false,
+                    "webhook_support": true,
+                    "setup_time": "5 minutes"
+                }
+            },
+            {
+                "name": "Typeform",
+                "price": "₹2,100/mo",
+                "features": {
+                    "form_backend": true,
+                    "ai_landing_page_focus": false,
+                    "built_in_crm": false,
+                    "lead_tagging": false,
+                    "pipeline_management": false,
+                    "email_sequences": false,
+                    "webhook_support": true,
+                    "setup_time": "15 minutes"
+                }
+            },
+            {
+                "name": "LeadInbox",
+                "price": "₹999 (Lifetime)",
+                "highlight": true,
+                "features": {
+                    "form_backend": true,
+                    "ai_landing_page_focus": true,
+                    "built_in_crm": true,
+                    "lead_tagging": true,
+                    "pipeline_management": true,
+                    "email_sequences": true,
+                    "webhook_support": true,
+                    "setup_time": "60 seconds"
+                }
+            }
+        ],
+        "comparison_labels": {
+            "form_backend": "Form Backend",
+            "ai_landing_page_focus": "Built for AI Landing Pages",
+            "built_in_crm": "Built-in CRM",
+            "lead_tagging": "Lead Tagging & Notes",
+            "pipeline_management": "Pipeline Management",
+            "email_sequences": "Email Sequences",
+            "webhook_support": "Webhook Support",
+            "setup_time": "Setup Time"
+        }
+    },
+    "use_cases": {
+        "title": "Perfect For",
+        "cases": [
+            {
+                "icon": "🎨",
+                "persona": "Solo Marketers",
+                "description": "Building landing pages with ChatGPT or v0? Get working forms + CRM without hiring a developer.",
+                "benefit": "Save $5,000+ on development costs"
+            },
+            {
+                "icon": "🚀",
+                "persona": "Solopreneurs",
+                "description": "Running a one-person business? Capture leads and manage your entire sales process in one tool.",
+                "benefit": "Manage 100+ leads without overwhelm"
+            },
+            {
+                "icon": "💼",
+                "persona": "Freelancers",
+                "description": "Get client leads from your portfolio site and track every opportunity in your pipeline.",
+                "benefit": "Never lose a potential client again"
+            },
+            {
+                "icon": "🏢",
+                "persona": "Small Agencies",
+                "description": "Offer form backend + CRM as a white-label service to your clients. Manage multiple projects easily.",
+                "benefit": "Add a new revenue stream"
+            }
+        ]
+    },
+    "social_proof": {
+        "title": "Join Early Adopters Building Smarter",
+        "stats": [
+            {
+                "number": "50+",
+                "label": "Early Adopters"
+            },
+            {
+                "number": "500+",
+                "label": "Leads Captured"
+            },
+            {
+                "number": "60 sec",
+                "label": "Average Setup Time"
+            },
+            {
+                "number": "99.9%",
+                "label": "Uptime Guarantee"
+            }
+        ],
+        "testimonials": [
+            {
+                "quote": "I was literally copy-pasting ChatGPT landing pages with broken forms. LeadInbox fixed this in 60 seconds. Now I'm tracking every lead in the CRM. Game changer!",
+                "author": "Priya Sharma",
+                "role": "Digital Marketer",
+                "avatar": "PS"
+            },
+            {
+                "quote": "The lifetime deal is insane value. I was paying ₹2,000/mo for Typeform + another ₹3,000 for a basic CRM. LeadInbox does both for ₹999 one-time. No brainer.",
+                "author": "Rahul Mehta",
+                "role": "Solopreneur",
+                "avatar": "RM"
+            }
+        ]
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+            {
+                "question": "What is the Lifetime Deal exactly?",
+                "answer": "Pay ₹999 once and get lifetime access to the Starter Plan (500 submissions/month, unlimited forms, full CRM features). You'll automatically get all new features we add to the Starter Plan in the future. No recurring fees, ever."
+            },
+            {
+                "question": "How is this different from Basin or Typeform?",
+                "answer": "Basin and Typeform are just form backends. LeadInbox is form backend + CRM in one. We're also the only tool built specifically for AI-generated landing pages. Plus, our lifetime deal costs less than 1 month of their subscriptions."
+            },
+            {
+                "question": "Do I need coding skills?",
+                "answer": "Absolutely not! If you can copy-paste, you can use LeadInbox. Just paste our endpoint into your AI-generated form and you're done. The CRM is 100% no-code too."
+            },
+            {
+                "question": "Can I connect my existing forms?",
+                "answer": "Yes! Use our webhook feature to connect forms from Typeform, Google Forms, Webflow, or any platform that supports webhooks. Centralize all your leads in one place."
+            },
+            {
+                "question": "What happens if I exceed 500 submissions/month?",
+                "answer": "Your forms will keep working! We'll never block submissions. You can upgrade to a higher plan or purchase additional submissions as needed. We'll notify you before you hit the limit."
+            },
+            {
+                "question": "When will the CRM features be ready?",
+                "answer": "Basic CRM features (tagging, notes, status tracking) will launch in Phase 2 (estimated 8-10 weeks). Advanced features (pipeline view, email sequences) in Phase 3 (12-16 weeks). As a lifetime member, you get everything automatically."
+            },
+            {
+                "question": "Is my data secure?",
+                "answer": "Absolutely. All data is encrypted in transit (SSL) and at rest. We're hosted on secure servers and follow industry best practices. Your data is YOUR data - we'll never sell it or use it for anything except providing you the service."
+            },
+            {
+                "question": "What if I'm not satisfied?",
+                "answer": "We offer a 30-day money-back guarantee. If LeadInbox doesn't work for you, just email us and we'll refund you immediately. No questions asked."
+            },
+            {
+                "question": "Can I upgrade later?",
+                "answer": "Yes! You can upgrade to Pro or Business plans anytime. Your lifetime Starter Plan benefits will carry over, and you'll just pay the difference."
+            },
+            {
+                "question": "How many forms can I create?",
+                "answer": "Unlimited! Create as many forms as you need. The only limit is 500 total submissions per month across all forms."
+            },
+            {
+                "question": "Do you offer support?",
+                "answer": "Yes! All lifetime members get priority email support. We typically respond within 24 hours (often much faster). We also have detailed documentation and video tutorials."
+            },
+            {
+                "question": "Why are you offering this lifetime deal?",
+                "answer": "We're pre-launching and want to build a community of early adopters who can give us feedback. Your insights will help shape the product. Plus, early supporters deserve the best deal!"
+            }
+        ]
+    },
+    "final_cta_section": {
+        "title": "Stop Losing Leads. Start Closing Deals.",
+        "subtitle": "Join 50+ marketers who've already claimed their lifetime access",
+        "benefits_recap": [
+            "✅ Working forms in 60 seconds",
+            "✅ Built-in CRM to manage every lead",
+            "✅ All future features included free",
+            "✅ 30-day money-back guarantee"
+        ],
+        "urgency": "⏰ Only 47 lifetime spots remaining",
+        "price_display": {
+            "original": "₹3,588/year",
+            "offer": "₹999",
+            "label": "One-time payment. Lifetime access."
+        },
+        "cta_button": "Claim My Lifetime Access Now",
+        "trust_badges": [
+            "🔒 Secure payment via Razorpay",
+            "💯 30-day money-back guarantee",
+            "🚀 Instant access after payment"
+        ],
+        "post_cta_text": "Questions? Email us at hello@leadinbox.io"
+    },
+    "footer": {
+        "tagline": "LeadInbox.io - Where AI landing pages meet real results",
+        "links": [
+            {
+                "label": "How It Works",
+                "url": "#how-it-works"
+            },
+            {
+                "label": "Features",
+                "url": "#features"
+            },
+            {
+                "label": "Pricing",
+                "url": "#pricing"
+            },
+            {
+                "label": "FAQ",
+                "url": "#faq"
+            }
+        ],
+        "social": [
+            {
+                "platform": "Twitter",
+                "url": "https://twitter.com/leadinbox"
+            },
+            {
+                "platform": "LinkedIn",
+                "url": "https://linkedin.com/company/leadinbox"
+            }
+        ],
+        "legal": [
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy"
+            },
+            {
+                "label": "Terms of Service",
+                "url": "/terms"
+            }
+        ],
+        "copyright": "© 2025 LeadInbox.io. All rights reserved."
+    }
+}
